@@ -80,6 +80,7 @@ public class PlatformPlayerController2D : MonoBehaviour
             m_anim.SetFloat("SpeedX", Mathf.Abs(m_rb.velocity.x));
             m_anim.SetFloat("SpeedY", m_rb.velocity.y);
             m_anim.SetBool("IsGrounded", m_isGrounded);
+
         }
     }
 }
